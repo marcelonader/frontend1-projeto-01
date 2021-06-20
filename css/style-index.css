@@ -210,10 +210,63 @@ footer{
     /* margin-right: 3rem; */
 }
 
-.audio{
+#audio{
     width: 14rem;
     height: 2rem;
 }
+
+
+#btnPlay{
+    width: 3rem;
+    height: 3rem;  
+    border: none;
+    margin-right: 0.5rem;
+    background-color: rgb(255, 253, 245);
+    border-radius: 0.3rem;
+}
+
+#btnPause{
+    width: 3rem;
+    height: 3rem; 
+    border: none;
+    background-color: rgb(255, 253, 245);
+    border-radius: 0.3rem;
+}
+
+#btnPlay:active{
+    width: 3rem;
+    height: 3rem;  
+    background-color: cornflowerblue;
+}
+
+#btnPause:active{
+    width: 3rem;
+    height: 3rem;  
+    background-color: rgb(255, 0, 34);
+}
+
+#btnPause:focus{
+    background-color: rgb(255, 0, 34);
+    width: 3.3rem;
+    height: 3.3rem; 
+}
+
+#btnPlay:focus{
+  background-color: cornflowerblue;
+  width: 3.3rem;
+  height: 3.3rem; 
+}
+
+#iconeBtnPlay{
+    width: 2.4rem;
+    height: 2.4rem; 
+}
+
+#iconeBtnPause{
+    width: 2.4rem;
+    height: 2.4rem; 
+}
+
 
 .logoMusica{
     display: flex;
