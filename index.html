@@ -18,13 +18,15 @@
                     <img id='logo' src="./imgs/logo.png" alt="imagem do logo da MDevDicas">
                 </a>
                 <div class='audio'>
-                    <button id='btnPlay' type='button' onclick='play()'>
+                    <button id='btnPlay' type='button' onclick="document.querySelector('#audio').play()">
                         <img id='iconeBtnPlay' src="./imgs/play_arrow_black_24dp.svg" alt="ícone do botão play">
                     </button>
-                    <button id='btnPause' type='button' onclick='pause()'>
+                    <button id='btnPause' type='button' onclick="document.querySelector('#audio').pause()">
                         <img id='iconeBtnPause' src="./imgs/pause_black_24dp.svg" alt="ícone do botão pause">
                     </button>
-                    <audio autoplay id='audio' src="./audios/top-gear.mp3"></audio>
+                    <audio autoplay='autoplay' id='audio'>
+                        <source  src="./audios/top-gear.mp3" type='audio/mp3'/>
+                    </audio>
                 </div>
             </div>
             <!-- menu superior com as opções home, dicas e contato -->
