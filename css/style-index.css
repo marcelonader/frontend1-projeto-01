@@ -210,6 +210,16 @@ footer{
     /* margin-right: 3rem; */
 }
 
+.audio{
+    width: 14rem;
+    height: 2rem;
+}
+
+.logoMusica{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .pMain{
 
@@ -223,7 +233,6 @@ footer{
     transform: scale(1.2);
     transition: 400ms transform cubic-bezier(0.13, 1.04, 0.99, 2.43);
 }
-
 
 #ctd{
     text-decoration: none;
