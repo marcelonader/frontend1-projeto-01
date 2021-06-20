@@ -228,6 +228,13 @@ footer{
 
 }
 
+.imgMain{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    width: 86rem;
+    height: 15rem;
+}
+
 .menuSuperior:hover{
     background-color: rgba(214, 156, 192, 1);
     transform: scale(1.2);
