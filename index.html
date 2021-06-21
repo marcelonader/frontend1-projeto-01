@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-        <script src='./js/script.js'></script>
+
     </head>
     <body>
         <header>
@@ -18,15 +18,14 @@
                     <img id='logo' src="./imgs/logo.png" alt="imagem do logo da MDevDicas">
                 </a>
                 <div class='audio'>
-                    <button id='btnPlay' type='button' onclick="document.querySelector('#audio').play()">
+                    <button id='btnPlay' type='button' onclick="playAudio()">
                         <img id='iconeBtnPlay' src="./imgs/play_arrow_black_24dp.svg" alt="ícone do botão play">
                     </button>
                     <button id='btnPause' type='button' onclick="document.querySelector('#audio').pause()">
                         <img id='iconeBtnPause' src="./imgs/pause_black_24dp.svg" alt="ícone do botão pause">
                     </button>
-                    <audio autoplay='autoplay' id='audio'>
-                        <source  src="./audios/top-gear.mp3" type='audio/mp3'/>
-                    </audio>
+                    <audio src="./audios/top-gear.mp3" id='audio' hidden></audio>
+
                 </div>
             </div>
             <!-- menu superior com as opções home, dicas e contato -->
@@ -43,7 +42,7 @@
             </nav>
         </header>
         <div class="container">
-             <!-- div com a imagem principal do site em formato GIF e com width de 100% com um max-width de 980px, e com uma caixa na parte de baixo da imagem -->
+            <!-- div com a imagem principal do site em formato GIF e com width de 100% com um max-width de 980px, e com uma caixa na parte de baixo da imagem -->
             <div class="heroImg">
                 <img id='imgHero' src="./imgs/javascript.gif" alt="gif javascript - imagem principal">
                 <div class='boxCentro'>
@@ -104,5 +103,6 @@
                 </div>
             </div> 
         </footer>
+        <script src='./js/script.js'></script>
     </body>
 </html>

@@ -50,7 +50,6 @@ nav{
     padding: 0.6rem;
     line-height: 1.3rem;
     text-align: center;
- 
 }
 
 .imgMenuSuperior{
@@ -210,11 +209,12 @@ footer{
     /* margin-right: 3rem; */
 }
 
+
+
 #audio{
     width: 14rem;
     height: 2rem;
 }
-
 
 #btnPlay{
     width: 3rem;
